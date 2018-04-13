@@ -1,0 +1,51 @@
+.bsuc {
+  border:2px solid green;
+  outline-color:black;
+  outline-style:initial;
+}
+
+.status {
+  border:2px solid green;
+  outline-color:black;
+  outline-style:initial;
+}
+
+
+.summ {
+  border:2px solid green;
+  outline-color:black;
+  outline-style:initial;
+}
+
+/*
+.col-lg-3 {
+  grid-row-end: 4;
+}
+*/
+
+.row {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding:20px 0;
+  font-size: 30px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container  div {
+  padding-left: 0px;
+}
+
+.grid-container td {
+  vertical-align: middle;
+}
+
+.grid-image {
+  height:50px;width:50px;margin-top:10px;
+}
+
